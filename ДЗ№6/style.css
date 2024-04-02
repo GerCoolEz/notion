@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Tac+One&display=swap');
+
+
+
+
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
+.buttons > i {
+    font-size: 20px;
+    padding: 10px 0px;
+    color: black;
+}
+
+.logo {
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.b1:nth-child(1) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.b1:nth-child(1):hover {
+    background-color: rgb(169, 164, 164);
+}
+
+.b2:nth-child(2) {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.b2:nth-child(2):hover {
+    background-color: rgb(47, 46, 46);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 10px;
+    
+}
+
+
+main > div > h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+main > div > p {
+    text-align: center;
+    color: gray ;
+}
+
+main > div > button {
+    margin: auto;
+    display: flex;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+} 
+
+.maintext > .b2 {
+    display: flex;
+    gap: 10px;
+    border: none;
+
+}
+
+.maintext > .b2:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.maintext > .b2 > i {
+    color: white;
+}
+
+.maintext > img {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+
+main > div > h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.brands {
+    gap: 20px;
+    text-align: center;
+}
+
+
+
+.title {
+    padding: 0px 200px;
+
+}
+
+section > .title > h1 {
+    font-size: 40px;
+    
+}
+
+section > .title > p {
+    font-size: 20px;
+    color: gray;
+}
+
+.partners {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+
+i{
+    color: green;
+}
+
+
+
+.box{
+    padding: 40px 20px 40px 20px;
+    margin: 20px;
+    display: grid;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;  
+    border: 2px solid black ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box > button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.free{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.box1{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+
+
+
+
+.tab{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.tab > button{
+    padding: 40px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.box > button {
+    border: none;
+}
+
+.box > button:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
